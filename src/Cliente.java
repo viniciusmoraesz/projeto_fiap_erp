@@ -1,8 +1,7 @@
 public class Cliente {
+    private String nome;
     private String razaoSocial;
     private String cnpj;
-
-    // Normalizar endereço E telefone
     private EnderecoCliente endereco;
     private String telefone;
     private String setorAtuacao;
@@ -14,6 +13,14 @@ public class Cliente {
         this.endereco = endereco;
         this.telefone = telefone;
         this.setorAtuacao = setorAtuacao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getRazaoSocial() {

@@ -1,8 +1,6 @@
 public class Fornecedor {
     private String nome;
     private String cnpj;
-
-    // Normalizar telefone
     private String telefone;
     private String email;
 
